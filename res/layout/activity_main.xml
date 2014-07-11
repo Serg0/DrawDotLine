@@ -1,0 +1,50 @@
+<com.example.drawdotline.MRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <ImageView
+        android:id="@+id/iv00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/iv01"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv01"
+        android:layout_below="@+id/iv02"
+        android:layout_marginLeft="32dp"
+        android:src="@drawable/ic_launcher" />
+
+</com.example.drawdotline.MRelativeLayout>
